@@ -49,7 +49,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.edit_message_text("📞 *Contact Admin:* \n@YourTelegramID", parse_mode="Markdown")
 
 # --- Run Bot ---
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN_HERE").build()
+app = ApplicationBuilder().token("8201716701:AAEjfIHh4cJh1p8zWwBhYjl4B4q3HOrqvdY").build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CallbackQueryHandler(button_handler))
 
