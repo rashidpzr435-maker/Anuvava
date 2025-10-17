@@ -1,0 +1,8 @@
+# Ignore Python specific files
+__pycache__/
+*.pyc
+
+# Ignore files that contain secrets (like your token)
+config.py
+secrets.txt
+.env
